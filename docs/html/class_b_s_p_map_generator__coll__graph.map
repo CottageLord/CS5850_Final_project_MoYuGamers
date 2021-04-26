@@ -1,0 +1,4 @@
+<map id="BSPMapGenerator" name="BSPMapGenerator">
+<area shape="rect" id="node1" title="represents a bsp node" alt="" coords="5,204,164,355"/>
+<area shape="rect" id="node2" href="$struct_room.html" title="the tile for wall" alt="" coords="50,5,119,127"/>
+</map>

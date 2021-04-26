@@ -1,0 +1,16 @@
+<map id="include/PlayerController.h" name="include/PlayerController.h">
+<area shape="rect" id="node1" title="This file controls the input from users and update player&#39;s information." alt="" coords="210,5,381,32"/>
+<area shape="rect" id="node2" href="$_engine_8cpp.html" title=" " alt="" coords="610,304,719,331"/>
+<area shape="rect" id="node3" href="$_player_controller_8cpp.html" title="This file controls the input from users and update player&#39;s information." alt="" coords="96,80,257,107"/>
+<area shape="rect" id="node4" href="$_tile_map_editor_8cpp.html" title="A tool allows users to place, select, and draw tiles to a tilemap." alt="" coords="161,229,309,256"/>
+<area shape="rect" id="node5" href="$_engine_8hpp.html" title="This file contains the fundamental class to control the game progress." alt="" coords="5,229,137,256"/>
+<area shape="rect" id="node7" href="$_player_8h.html" title="This file contains methods about the main character in the game." alt="" coords="534,80,649,107"/>
+<area shape="rect" id="node6" href="$lab_8cpp.html" title="The entrance to the game engine." alt="" coords="28,304,115,331"/>
+<area shape="rect" id="node8" href="$_player_8cpp.html" title="This file contains methods about the main character in the game." alt="" coords="839,155,946,181"/>
+<area shape="rect" id="node9" href="$_enemy_object_8hpp.html" title="This file contains methods about the enemies character in the game." alt="" coords="383,155,554,181"/>
+<area shape="rect" id="node13" href="$_health_bar_8h.html" title=" " alt="" coords="680,155,815,181"/>
+<area shape="rect" id="node10" href="$_enemy_object_8cpp.html" title="This file contains methods about the enemies character in the game." alt="" coords="333,229,481,256"/>
+<area shape="rect" id="node11" href="$_map_8h.html" title="This file defines a gameobject map to render background image." alt="" coords="505,229,608,256"/>
+<area shape="rect" id="node12" href="$_map_8cpp.html" title="This file defines a gameobject map to manage tilemap and enemies." alt="" coords="491,304,585,331"/>
+<area shape="rect" id="node14" href="$_health_bar_8cpp.html" title=" " alt="" coords="684,229,811,256"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="AnimationComponent" name="AnimationComponent">
+<area shape="rect" id="node1" title="Provides functions to add sprites and update animation." alt="" coords="5,145,180,355"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="35,5,151,97"/>
+</map>

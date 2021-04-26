@@ -1,0 +1,4 @@
+<map id="Map" name="Map">
+<area shape="rect" id="node1" title="Define a gameobject map to render background image." alt="" coords="19,321,141,487"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title="Base class for all entities in scenes." alt="" coords="5,5,155,273"/>
+</map>

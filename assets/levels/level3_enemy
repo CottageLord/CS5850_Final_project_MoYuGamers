@@ -1,0 +1,72 @@
+{
+	"Enemy1":	{
+		"id":	1,
+		"isActive":	false,
+		"posX":	1,
+		"posY":	13,
+		"HP":	6
+	},
+	"Enemy2":	{
+		"id":	2,
+		"isActive":	true,
+		"posX":	21,
+		"posY":	7,
+		"HP":	6
+	},
+	"Enemy3":	{
+		"id":	3,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	},
+	"Enemy4":	{
+		"id":	4,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	},
+	"Enemy5":	{
+		"id":	5,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	},
+	"Enemy6":	{
+		"id":	6,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	},
+	"Enemy7":	{
+		"id":	7,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	},
+	"Enemy8":	{
+		"id":	8,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	},
+	"Enemy9":	{
+		"id":	9,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	},
+	"Enemy10":	{
+		"id":	10,
+		"isActive":	false,
+		"posX":	10,
+		"posY":	10,
+		"HP":	6
+	}
+}

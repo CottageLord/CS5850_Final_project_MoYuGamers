@@ -1,0 +1,4 @@
+<map id="TileMap" name="TileMap">
+<area shape="rect" id="node1" title="Define the tilemap functions and variables." alt="" coords="5,145,165,369"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="27,5,143,97"/>
+</map>

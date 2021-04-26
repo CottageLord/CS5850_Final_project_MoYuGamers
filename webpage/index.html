@@ -1,0 +1,172 @@
+<!DOCTYPE html>	
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="FinalProject.css" />
+		<script src="FinalProject.js" type="text/javascript"></script>
+		<title>Game Maker Project</title>
+	</head>
+	<body>
+		<!-- Navigation -->
+		<ul id="navigation">
+		  <li class="tab" id="conid" associated-content="context">Overview</li>
+		  <li class="tab" id="taskid" associated-content="demo">Demonstration</li>		
+		  <li class="tab" id="proid" associated-content="math">Algorithms</li>
+		  <li class="tab" id="docid" associated-content="doc">Structure and Docs</li>	
+		  <li class="tab" id="artid" associated-content="post">Post Mortem</li>
+		  <li class="tab" id="desid" associated-content="play">Play</li>
+		  <li class="tab" id="conclusionid" associated-content="contact">Contact Us</li>
+		</ul>
+		<!-- context -->
+		<div class="tabcontent" id="context">
+		
+			<h2 id="milestoneinformation">Project Overview</h2>
+			<!-- Group Info -->
+			<fieldset>
+				<legend>Basic Information</legend>
+				<ul id="members">
+					<li class="team"><span class="teamName">Project</span>: Dungeon Game Maker</li>
+					<li class="team"><span class="teamName">Author</span>: Yang Hu, Hang Zhou, Shang Lyu, Qikun Xu </li>
+					<li class="team"><span class="teamName">Institution</span>: Northeastern University</li>
+					<li class="team"><span class="teamName">Class</span>: CS5850 - Building Game Engine</li>
+					<li class="team"><span class="teamName">Instructor</span>: Mike Shah</li>
+				</ul>
+			</fieldset>
+			<!-- context -->
+			<h2>Game Introduction</h2>
+			<video width="610" class="center" controls autoplay>
+			    <source src="video/trailer.MP4" type="video/mp4">
+			</video>
+
+
+			<p>This project is a 2D dungeon game maker implemented with a component pattern and many essential structures for other extensions. With a low-coupling programming principle, the game could be easily used as a game engine that supports various 2D game development. </p>
+			<p>Here is a list of what we have did in this project.</p>
+
+			<h3>Features:</h3>
+			<ol id="update">
+				<li><span class="teamName">Component pattern</span>: All functionalities, like animation, are attachable to game objects.</li>
+				<li><span class="teamName">Resource manager</span>: A singleton <a href="../docs/html/class_resource_manager.html">resource manager</a> holds and manages all loaded resources.</li>
+				<li><span class="teamName">GUI-based object editor</span>: We used the KISS library to build a GUI for editing game objects, like enemies, without compilation.</li>
+				<li><span class="teamName">Data Driven</span>: Data like level maps and enemy info and are loaded during the compilation. We also implemented a basic <span class="teamName">Object Pool</span> for managing enemies. The enemies will be instanciated together when the engine starts. Defeating an enemy triggers a deactivate, instead of a destroy.</li>
+				<li><span class="teamName">Animator</span>: A customized <a href="../docs/html/class_animation_component.html">animator</a> component that manages animations with respective states.</li>
+				<li><span class="teamName">Pathfinding</span>: A <a href="../docs/html/class_path_finder_component.html">pathfinding component</a> that provides optimized A* pathing and guide the owner to the desired destination.</li>
+				<li><span class="teamName">Auto Tiling</span>: A set of handful <a href="../docs/html/class_tile_map.html#a28d61892380409ec4c74bcfcff43ca3e">auto-tiling functions</a> that automatically draws all the corners, walls, floors and corridors with customizeable settings.</li>
+				<li><span class="teamName">Auto Map Generation</span>: A dungeon <a href="../docs/html/class_b_s_p_map_generator.html">map generator</a> that produces a dungeon with random rooms, hallways, start/end rooms and stairs.</li>
+			</ol>
+
+			<h3>How to play:</h3>
+			<ol id="update">
+				<li><span class="teamName">Title Screen</span>: When the game start, use <span class="teamName">up or down</span> arrow to select between level editor and game. Press Enter to confirm.</li>
+				<li><span class="teamName">Movement</span>: <span class="teamName">WASD</span> to move.</li>
+				<li><span class="teamName">Attack</span>: Use arrow keys to attack.</li>
+				<li><span class="teamName">Switch Mode</span>: Use <span class="teamName">Q</span> on your keyboard to quit the game or back to the menu.</li>
+				<li><span class="teamName">Edit and Play</span>: In the editor, player can customize tilemap with <span class="teamName">mouse</span>. You can save your tilemap to the local file or load it to the game.</li>
+				<li><span class="teamName">Clear Map</span>: (Editor only) Press <span class="teamName">Esc</span> to clear up the canvas.</li>
+				<li><span class="teamName">Generate Map</span>: Use <span class="teamName">Space</span> key to generate a new map. By doing this, player will be trasported to the start room, and all enemies will be re-allocated to valid positions.</li>
+				<li><span class="teamName">Travel Between Maps</span>: Walk on the stair to enter the next map</li>
+				
+			</ol>
+			<h3>Tools:</h3>
+			<ol>
+				<li><span class="teamName">Sprite Editor</span>: ./lib/spriteEditor: a simple sprite editor. Compile with python build.py</li>
+				<li><span class="teamName">Level Editor</span>: Select "Editor" in game title screen.</li>
+				<li><span class="teamName">TODO</span>: TODO
+			</ol>
+			
+			<!--  -->
+		</div>
+		<!-- demo -->
+		<div class="tabcontent" id="demo">
+			<h2>Game Demonstration</h2>
+			<h3>Game play</h3>
+			<video width="610" class="center" controls>
+			    <source src="video/trailer.MP4" type="video/mp4">
+			</video>
+
+			<h3>Screen shots</h3>
+			<p>Title screen</p>
+			<a href="img/title.png"><img src="img/title.png" alt="Screenshot of the game" class="center" width=700></a>
+			<p>Generated Map</p>
+			<a href="img/automap.png"><img src="img/automap.png" alt="Screenshot of the game" class="center" width=700></a>
+			<p>Gameplay</p>
+			<a href="img/battle.PNG"><img src="img/battle.PNG" alt="Screenshot of the game" class="center" width=700></a>
+			<p>Editor</p>
+			<a href="img/editor.PNG"><img src="img/editor.PNG" alt="Screenshot of the game" class="center" width=700></a>
+		</div>
+		<!-- play -->
+		<div class="tabcontent" id="play">
+			<h2>Game build and executable</h2>
+			 <a href="https://github.com/CottageLord/Platform_SDL">GitHub Repository
+      		</a>
+		</div>
+		<!-- prototype -->
+		<div class="tabcontent" id="math">
+			<h2>Map generation</h2>
+			<p>We implemented a procedural map generation and an auto-tiling system.</p>
+			<a href="img/mapGenText.png"><img src="img/mapGenText.png" alt="Screenshot of the game" class="center" width=700></a>
+			<a href="img/automap.png"><img src="img/automap.png" alt="Screenshot of the game" class="center" width=700></a>
+			<p>With a binary space partitioning tree, we devide the map area randomly into leaf spaces and generate random rooms and hallways within these spaces. Then auto-tiling function set then recognizes all corners, floors and directional wall sprites.</p>
+			<p>This short clip shows the new map generation.</p>
+			<video width="610" class="center" controls>
+			    <source src="video/mapGen.MP4" type="video/mp4">
+			</video>
+			<h2>Enemy AI</h2>
+			<p>We implemented an enemy AI with pathfinding.</p>
+			<a href="img/enemyBehavior.png"><img src="img/enemyBehavior.png" alt="Screenshot of the game" class="center" width=700></a>
+			<p>The enemy comes with a <a href="../docs/html/class_path_finder_component.html">pathfinder</a> component for chasing  player or traveling to a random destination.</p>
+			<p>The enemy changes between walk and rest states based on fixed time schedule. The player detection runs with highest priority, and will change the enemy state to attack when the player is in sight.</p>
+			<video width="610" class="center" controls>
+			    <source src="video/pathfinding.MP4" type="video/mp4">
+			</video>
+			<p>We implemented a simple <a href="../docs/html/class_tile_map.html#a077c0ba26962448731714e0ccb93b5bb">Raycast()</a> function for detecting player.</p>
+			<video width="610" class="center" controls autoplay>
+			    <source src="video/enemyai.mp4" type="video/mp4">
+			</video>
+			<h2>Collision check</h2>
+			<p>The collision check method is adapted from the Separating Axis Theorem (SAT) in <a target="_blank" href="https://austinmorlan.com/posts/pong_clone/">Austin Morlan 's tutorial</a>.</p>
+			<a href="img/collision_example_03.png"><img src="img/collision_example_03.png" alt="Screenshot of the game" class="center" width=700></a>
+		</div>
+
+		<div class="tabcontent" id="doc">
+			<h2>Project documentation</h2>
+			 <a href="../docs/html/index.html">Documentation</a>
+			<h2>Engine Architecture</h2>
+			<a href="img/Diagram.png"><img src="img/Diagram.png" alt="Diagram" class="center" width=700></a>
+		</div>
+
+		<div class="tabcontent" id="post">
+			<h2>Possible improvements with 8 extra weeks</h2>
+			<h5>Better graphics:</h5>
+			<p>The sprites we found still have some visible flaws (the little black edges in some tiles). We could improve this very fastly.<span class="teamName">(1 day)</span></p>
+			<p>Add <span class="teamName">more sprites</span>, the enemies and characters should have more varietyies. <span class="teamName">(1 day)</span></p>
+
+			<h5>Better editor:</h5>
+			<p>Add <span class="teamName">auto-tiling mechanism </span> which automatically switch between different tile sides when creating terrains.<span class="teamName">(1 day)</span></p>
+			<p><span class="teamName">A level file manager </span> that could browse and select between multiple level files. <span class="teamName">(2 days)</span></p>
+			<p><span class="teamName">Better data separation. </span>The editor should save different tiles (collidable, uncollidable and anemy objects) into separate files, for easier coding (i.e when generating colliders). <span class="teamName">(1 day)</span></p>
+			<p>Add different <span class="teamName">backgrounds </span> <span class="teamName">(1 day)</span></p>
+
+
+			<h5>More mechanics:</h5>
+			<p><span class="teamName">A real combat system </span> that allows player to wield a weapon.<span class="teamName">(1 week)</span></p>
+			<p><span class="teamName"> Battle reward </span> mechanics. The sprite sheet we use already provides many potion-like items, and we could use these as dropped rewards from the enemies. <span class="teamName">3 days</span></p>
+
+			<h5>More levels:</h5>
+			<p>Add <span class="teamName">more levels</span>, even chapters, make a new game process manager and UI for all level displays <span class="teamName">(1 to 2 week)</span></p>
+			<p>Add <span class="teamName">narratives (1 week)</span>
+
+			<h5>Refine build:</h5>
+			<p>Make a <span class="teamName"> better title screen and pause menu</span> with clickable buttons <span class="teamName">(1 week)</span></p>
+
+		</div>
+		
+		<div class="tabcontent" id="contact">
+			<h4>Email:</h4>
+			<span class="teamName">Yang Hu</span><p>hu.ya@northeastern.edu</p>
+			<span class="teamName">Zhou Hang</span><p>zhou.han@northeastern.edu</p>
+			<span class="teamName">Shang Lyu</span><p>lyu.sha@northeastern.edu</p>
+			<span class="teamName">Qikun Xu</span><p>TODO@northeastern.edu</p>
+		</div>
+	</body>
+</html>

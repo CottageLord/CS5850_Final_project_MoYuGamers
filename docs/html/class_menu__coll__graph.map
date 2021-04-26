@@ -1,0 +1,4 @@
+<map id="Menu" name="Menu">
+<area shape="rect" id="node1" title="This class display the menu page of this game." alt="" coords="15,321,145,472"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title="Base class for all entities in scenes." alt="" coords="5,5,155,273"/>
+</map>

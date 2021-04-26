@@ -1,0 +1,4 @@
+<map id="EditorController" name="EditorController">
+<area shape="rect" id="node1" title="This class control the input from users in tilemap editor." alt="" coords="5,145,121,267"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="5,5,121,97"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="TextDisplay" name="TextDisplay">
+<area shape="rect" id="node1" title="Define the functions and variables required to display texts." alt="" coords="71,219,189,413"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="5,35,121,127"/>
+<area shape="rect" id="node3" href="$class_vec2.html" title="2d vector object to represent position and velocity." alt="" coords="145,5,251,156"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="EnemyObject" name="EnemyObject">
+<area shape="rect" id="node1" title="This class contains methods about the enemies character in the game." alt="" coords="15,321,145,545"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title="Base class for all entities in scenes." alt="" coords="5,5,155,273"/>
+</map>

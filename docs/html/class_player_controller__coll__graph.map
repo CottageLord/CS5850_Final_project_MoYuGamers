@@ -1,0 +1,4 @@
+<map id="PlayerController" name="PlayerController">
+<area shape="rect" id="node1" title="Control the input from users and update player&#39;s information." alt="" coords="5,145,152,355"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="21,5,137,97"/>
+</map>

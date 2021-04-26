@@ -1,0 +1,4 @@
+<map id="MenuController" name="MenuController">
+<area shape="rect" id="node1" title="This class controls the menu page of this game." alt="" coords="5,145,155,267"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="22,5,138,97"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="GameObject" name="GameObject">
+<area shape="rect" id="node1" title="Base class for all entities in scenes." alt="" coords="297,5,446,273"/>
+<area shape="rect" id="node2" href="$class_enemy_object.html" title="This class contains methods about the enemies character in the game." alt="" coords="5,321,135,545"/>
+<area shape="rect" id="node3" href="$class_map.html" title="Define a gameobject map to render background image." alt="" coords="159,351,282,516"/>
+<area shape="rect" id="node4" href="$class_menu.html" title="This class display the menu page of this game." alt="" coords="306,358,437,509"/>
+<area shape="rect" id="node5" href="$class_player.html" title=" " alt="" coords="461,321,599,545"/>
+<area shape="rect" id="node6" href="$class_tile_map_editor.html" title="This class serves as a gameobject to edit, save or load tilemaps." alt="" coords="623,321,754,545"/>
+</map>

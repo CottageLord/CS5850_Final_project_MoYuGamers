@@ -1,0 +1,4 @@
+<map id="HealthBar" name="HealthBar">
+<area shape="rect" id="node1" title="HealthBar can be used for player and enemies in order to visualize their hit point." alt="" coords="10,145,117,281"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="5,5,121,97"/>
+</map>

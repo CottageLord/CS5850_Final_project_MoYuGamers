@@ -1,0 +1,4 @@
+<map id="Sprite" name="Sprite">
+<area shape="rect" id="node1" title="Sprite supports detecting the current orientation and set moving direction functions for characters." alt="" coords="5,145,127,413"/>
+<area shape="rect" id="node2" href="$class_component.html" title="This class serves as the base class for components in gameobject." alt="" coords="8,5,124,97"/>
+</map>

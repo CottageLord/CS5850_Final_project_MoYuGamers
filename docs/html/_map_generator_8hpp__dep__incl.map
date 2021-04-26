@@ -1,0 +1,24 @@
+<map id="include/MapGenerator.hpp" name="include/MapGenerator.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="269,5,443,32"/>
+<area shape="rect" id="node2" href="$_map_generator_8cpp.html" title=" " alt="" coords="197,80,347,107"/>
+<area shape="rect" id="node3" href="$_tile_map_8hpp.html" title="This file contains all the basic functions to operate a tilemap." alt="" coords="371,80,509,107"/>
+<area shape="rect" id="node4" href="$_tile_map_8cpp.html" title="This file contains all the basic functions to operate a tilemap." alt="" coords="5,155,120,181"/>
+<area shape="rect" id="node5" href="$_collision_component_8hpp.html" title="This file provides functions to detect collision." alt="" coords="145,155,351,181"/>
+<area shape="rect" id="node7" href="$_enemy_object_8hpp.html" title="This file contains methods about the enemies character in the game." alt="" coords="477,229,648,256"/>
+<area shape="rect" id="node13" href="$_map_8h.html" title="This file defines a gameobject map to render background image." alt="" coords="445,304,547,331"/>
+<area shape="rect" id="node15" href="$_player_8h.html" title="This file contains methods about the main character in the game." alt="" coords="337,379,452,405"/>
+<area shape="rect" id="node19" href="$_resource_manager_8hpp.html" title="This file defines the funcionality of managing resources." alt="" coords="744,155,941,181"/>
+<area shape="rect" id="node22" href="$_tile_map_editor_8hpp.html" title="A tool allows users to place, select, and draw tiles to a tilemap." alt="" coords="757,229,928,256"/>
+<area shape="rect" id="node6" href="$_collision_component_8cpp.html" title="This file provides functions to control the camera&#39;s perspective and its location." alt="" coords="168,229,352,256"/>
+<area shape="rect" id="node8" href="$_enemy_object_8cpp.html" title="This file contains methods about the enemies character in the game." alt="" coords="571,304,719,331"/>
+<area shape="rect" id="node9" href="$_tile_map_editor_8cpp.html" title="A tool allows users to place, select, and draw tiles to a tilemap." alt="" coords="795,304,943,331"/>
+<area shape="rect" id="node10" href="$_engine_8hpp.html" title="This file contains the fundamental class to control the game progress." alt="" coords="642,453,774,480"/>
+<area shape="rect" id="node11" href="$_engine_8cpp.html" title=" " alt="" coords="507,528,616,555"/>
+<area shape="rect" id="node12" href="$lab_8cpp.html" title="The entrance to the game engine." alt="" coords="665,528,751,555"/>
+<area shape="rect" id="node14" href="$_map_8cpp.html" title="This file defines a gameobject map to manage tilemap and enemies." alt="" coords="599,379,694,405"/>
+<area shape="rect" id="node16" href="$_player_8cpp.html" title="This file contains methods about the main character in the game." alt="" coords="367,453,473,480"/>
+<area shape="rect" id="node17" href="$_health_bar_8h.html" title=" " alt="" coords="207,453,342,480"/>
+<area shape="rect" id="node18" href="$_health_bar_8cpp.html" title=" " alt="" coords="211,528,338,555"/>
+<area shape="rect" id="node20" href="$_menu_8h.html" title="This file contains a Menu class to display the menu page of this game." alt="" coords="953,229,1063,256"/>
+<area shape="rect" id="node21" href="$_menu_8cpp.html" title="This file contains a Menu class to display the menu page of this game." alt="" coords="1019,304,1120,331"/>
+</map>
