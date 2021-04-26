@@ -46,6 +46,7 @@
 			<h3>Features:</h3>
 			<ol id="update">
 				<li><span class="teamName">Component pattern</span>: All functionalities, like animation, are attachable to game objects.</li>
+				<li><span class="teamName">GUI editors</span>: An editor that support game-object (like enemy) editing.</li>
 				<li><span class="teamName">Resource manager</span>: A singleton <a href="../docs/html/class_resource_manager.html">resource manager</a> holds and manages all loaded resources.</li>
 				<li><span class="teamName">GUI-based object editor</span>: We used the KISS library to build a GUI for editing game objects, like enemies, without compilation.</li>
 				<li><span class="teamName">Data Driven</span>: Data like level maps and enemy info and are loaded during the compilation. We also implemented a basic <span class="teamName">Object Pool</span> for managing enemies. The enemies will be instanciated together when the engine starts. Defeating an enemy triggers a deactivate, instead of a destroy.</li>
@@ -65,6 +66,7 @@
 				<li><span class="teamName">Clear Map</span>: (Editor only) Press <span class="teamName">Esc</span> to clear up the canvas.</li>
 				<li><span class="teamName">Generate Map</span>: Use <span class="teamName">Space</span> key to generate a new map. By doing this, player will be trasported to the start room, and all enemies will be re-allocated to valid positions.</li>
 				<li><span class="teamName">Travel Between Maps</span>: Walk on the stair to enter the next map</li>
+				<li><span class="teamName">Use GUI editor</span>: build the editor by puthon buildGUI.py</li>
 				
 			</ol>
 			<h3>Tools:</h3>
@@ -137,27 +139,24 @@
 
 		<div class="tabcontent" id="post">
 			<h2>Possible improvements with 8 extra weeks</h2>
-			<h5>Better graphics:</h5>
-			<p>The sprites we found still have some visible flaws (the little black edges in some tiles). We could improve this very fastly.<span class="teamName">(1 day)</span></p>
-			<p>Add <span class="teamName">more sprites</span>, the enemies and characters should have more varietyies. <span class="teamName">(1 day)</span></p>
+			<h5>A more "engine-like" design:</h5>
+			<p>The current build is still more "game-like" instead of "engine-like". But, most of the game is coded as we are using an engine, which makes the update
+			a easier task. For example, all sprite loading and resource configurations are written in Config.hpp, with strict formats. Also, all the game objects, including
+			player and enemy, can be easily updated with new sprites, attributes and behaviors (like collider). <span class="teamName">(2 week)</span></p>
+			<p>Add <span class="teamName">A better GUI system</span>, the engine could looked more like an application build that support a relatively complete
+			development work. This could support managing game objects as in a file system, managing resources like sprite and configuring tile palette. 
+			<span class="teamName">(2 week)</span></p>
 
-			<h5>Better editor:</h5>
-			<p>Add <span class="teamName">auto-tiling mechanism </span> which automatically switch between different tile sides when creating terrains.<span class="teamName">(1 day)</span></p>
-			<p><span class="teamName">A level file manager </span> that could browse and select between multiple level files. <span class="teamName">(2 days)</span></p>
-			<p><span class="teamName">Better data separation. </span>The editor should save different tiles (collidable, uncollidable and anemy objects) into separate files, for easier coding (i.e when generating colliders). <span class="teamName">(1 day)</span></p>
-			<p>Add different <span class="teamName">backgrounds </span> <span class="teamName">(1 day)</span></p>
+			<h5>More script supporting:</h5>
+			<p>Create more possibilities for other users to write all kinds of scripts changing the game state. For example, be able to specify game ending by writing purely
+			in scripts. <span class="teamName">(2 weeks)</span></p>
 
 
-			<h5>More mechanics:</h5>
-			<p><span class="teamName">A real combat system </span> that allows player to wield a weapon.<span class="teamName">(1 week)</span></p>
-			<p><span class="teamName"> Battle reward </span> mechanics. The sprite sheet we use already provides many potion-like items, and we could use these as dropped rewards from the enemies. <span class="teamName">3 days</span></p>
-
-			<h5>More levels:</h5>
-			<p>Add <span class="teamName">more levels</span>, even chapters, make a new game process manager and UI for all level displays <span class="teamName">(1 to 2 week)</span></p>
-			<p>Add <span class="teamName">narratives (1 week)</span>
-
-			<h5>Refine build:</h5>
-			<p>Make a <span class="teamName"> better title screen and pause menu</span> with clickable buttons <span class="teamName">(1 week)</span></p>
+			<h5>Support game progress editing:</h5>
+			<p>Allow player to control the engine behavior, like switching between scenes, to support game start/end coding.<span class="teamName">(1 week)</span></p>
+			
+			<h5>Support more text and image editing:</h5>
+			<p>So that users could drop more textx/images and even buttons to create their own menus. <span class="teamName">(1 week)</span></p>
 
 		</div>
 		
@@ -166,7 +165,7 @@
 			<span class="teamName">Yang Hu</span><p>hu.ya@northeastern.edu</p>
 			<span class="teamName">Zhou Hang</span><p>zhou.han@northeastern.edu</p>
 			<span class="teamName">Shang Lyu</span><p>lyu.sha@northeastern.edu</p>
-			<span class="teamName">Qikun Xu</span><p>TODO@northeastern.edu</p>
+			<span class="teamName">Qikun Xu</span><p>xu.qik@northeastern.edu</p>
 		</div>
 	</body>
 </html>
